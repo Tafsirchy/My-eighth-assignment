@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/mvqqHzT/productivity-app.jpg",
+    "title": "TaskFlow",
+    "companyName": "NextGen Labs",
+    "id": 1,
+    "description": "A smart productivity app that helps you organize tasks with AI reminders and progress tracking.",
+    "size": 45,
+    "reviews": 3124,
+    "ratingAvg": 4.7,
+    "downloads": 125000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 1784 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yPNvj0C/fitness-app.jpg",
+    "title": "FitTrack",
+    "companyName": "HealthSync",
+    "id": 2,
+    "description": "Track workouts, calories, and progress with AI-powered fitness suggestions.",
+    "size": 82,
+    "reviews": 2540,
+    "ratingAvg": 4.5,
+    "downloads": 97000,
+    "ratings": [
+      { "name": "1 star", "count": 95 },
+      { "name": "2 star", "count": 156 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 820 },
+      { "name": "5 star", "count": 1129 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pjN6bMW/music-player.jpg",
+    "title": "TuneStream",
+    "companyName": "MelodyHub",
+    "id": 3,
+    "description": "Music streaming app with offline mode, curated playlists, and artist insights.",
+    "size": 76,
+    "reviews": 6010,
+    "ratingAvg": 4.8,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 1080 },
+      { "name": "5 star", "count": 4250 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y3YrLbt/travel-app.jpg",
+    "title": "TripEase",
+    "companyName": "VoyageWorks",
+    "id": 4,
+    "description": "Plan, book, and share your trips with real-time itinerary updates.",
+    "size": 60,
+    "reviews": 1442,
+    "ratingAvg": 4.6,
+    "downloads": 86000,
+    "ratings": [
+      { "name": "1 star", "count": 42 },
+      { "name": "2 star", "count": 76 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 784 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QvF4KZc/finance-app.jpg",
+    "title": "MoneyMate",
+    "companyName": "FinSage",
+    "id": 5,
+    "description": "Expense tracker and budgeting app with AI spending analysis and insights.",
+    "size": 42,
+    "reviews": 3240,
+    "ratingAvg": 4.4,
+    "downloads": 143000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1590 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/CP7G0GL/photo-editor.jpg",
+    "title": "SnapEdit",
+    "companyName": "PixelForge",
+    "id": 6,
+    "description": "Photo editing app with filters, AI background remover, and collage tools.",
+    "size": 70,
+    "reviews": 5100,
+    "ratingAvg": 4.8,
+    "downloads": 390000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 960 },
+      { "name": "5 star", "count": 3590 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ypRnSp9/shopping-app.jpg",
+    "title": "ShopLink",
+    "companyName": "MarketGrid",
+    "id": 7,
+    "description": "One-stop shopping platform for top brands with flash sales and coupons.",
+    "size": 88,
+    "reviews": 7800,
+    "ratingAvg": 4.6,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 640 },
+      { "name": "4 star", "count": 1780 },
+      { "name": "5 star", "count": 4900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tZXDh3x/education-app.jpg",
+    "title": "EduVerse",
+    "companyName": "LearnSphere",
+    "id": 8,
+    "description": "Online learning app with video tutorials, quizzes, and live mentor sessions.",
+    "size": 120,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": 184000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 960 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LrR2nzk/news-app.jpg",
+    "title": "DailyPulse",
+    "companyName": "InfoStream",
+    "id": 9,
+    "description": "Personalized news app that curates global headlines and local stories.",
+    "size": 38,
+    "reviews": 4200,
+    "ratingAvg": 4.2,
+    "downloads": 175000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 1180 },
+      { "name": "5 star", "count": 1560 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/L5TbbXz/weather-app.jpg",
+    "title": "SkyCast",
+    "companyName": "WeatherPro",
+    "id": 10,
+    "description": "Accurate weather forecasting app with real-time alerts and satellite maps.",
+    "size": 30,
+    "reviews": 2980,
+    "ratingAvg": 4.3,
+    "downloads": 154000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1590 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WK8FtzC/social-app.jpg",
+    "title": "Chatterly",
+    "companyName": "Connectify",
+    "id": 11,
+    "description": "Social media app for sharing photos, videos, and real-time stories.",
+    "size": 110,
+    "reviews": 8800,
+    "ratingAvg": 4.5,
+    "downloads": 840000,
+    "ratings": [
+      { "name": "1 star", "count": 390 },
+      { "name": "2 star", "count": 470 },
+      { "name": "3 star", "count": 940 },
+      { "name": "4 star", "count": 2180 },
+      { "name": "5 star", "count": 4820 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23C8zZ5/language-app.jpg",
+    "title": "LinguaPro",
+    "companyName": "PolyLearn",
+    "id": 12,
+    "description": "Language learning app with voice practice, translation, and flashcards.",
+    "size": 64,
+    "reviews": 4500,
+    "ratingAvg": 4.8,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 3270 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2K1DyWF/security-app.jpg",
+    "title": "SafeNet",
+    "companyName": "CyberVault",
+    "id": 13,
+    "description": "Internet security app that scans for threats and secures your online identity.",
+    "size": 90,
+    "reviews": 3670,
+    "ratingAvg": 4.6,
+    "downloads": 195000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 910 },
+      { "name": "5 star", "count": 2210 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/syR3YQH/maps-app.jpg",
+    "title": "Maply",
+    "companyName": "GeoVision",
+    "id": 14,
+    "description": "Offline maps, navigation, and location sharing with live traffic updates.",
+    "size": 150,
+    "reviews": 4980,
+    "ratingAvg": 4.4,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1020 },
+      { "name": "5 star", "count": 2940 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qY3Djns/food-delivery-app.jpg",
+    "title": "QuickBite",
+    "companyName": "Foodly",
+    "id": 15,
+    "description": "Order food from local restaurants and track delivery in real time.",
+    "size": 65,
+    "reviews": 9100,
+    "ratingAvg": 4.3,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 540 },
+      { "name": "2 star", "count": 710 },
+      { "name": "3 star", "count": 1250 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qC0hpf6/meditation-app.jpg",
+    "title": "CalmSpace",
+    "companyName": "MindEase",
+    "id": 16,
+    "description": "Meditation and sleep app with soothing sounds, guided sessions, and breathing exercises.",
+    "size": 58,
+    "reviews": 2700,
+    "ratingAvg": 4.9,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 2050 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/f9P3wtx/note-app.jpg",
+    "title": "NoteSync",
+    "companyName": "CloudTools",
+    "id": 17,
+    "description": "Cloud-based note-taking app with instant synchronization across devices.",
+    "size": 34,
+    "reviews": 1980,
+    "ratingAvg": 4.7,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4M3Jhs3/gaming-app.jpg",
+    "title": "PixelQuest",
+    "companyName": "GameForge",
+    "id": 18,
+    "description": "Adventure game with customizable characters and multiplayer challenges.",
+    "size": 180,
+    "reviews": 11200,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 650 },
+      { "name": "2 star", "count": 810 },
+      { "name": "3 star", "count": 1550 },
+      { "name": "4 star", "count": 2980 },
+      { "name": "5 star", "count": 6210 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/t1B8K6G/music-maker-app.jpg",
+    "title": "BeatCraft",
+    "companyName": "SoundForge",
+    "id": 19,
+    "description": "Create and mix your own beats with AI-assisted sound tools.",
+    "size": 95,
+    "reviews": 4230,
+    "ratingAvg": 4.8,
+    "downloads": 290000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 640 },
+      { "name": "5 star", "count": 3180 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9NVy1CF/travel-map-app.jpg",
+    "title": "CityScout",
+    "companyName": "UrbanTech",
+    "id": 20,
+    "description": "Discover hidden places, events, and routes in your city with augmented reality.",
+    "size": 85,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 230000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 1670 }
+    ]
+  }
+]

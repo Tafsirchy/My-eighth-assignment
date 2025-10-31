@@ -60,10 +60,10 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end ">
+        <div className="navbar-end">
           <Link className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white hover:from-[#7446E8] hover:to-[#AE7AF6] border-none flex gap-2 rounded-lg items-center duration-200 hover:scale-105">
             <div className="bg-white rounded-full p-[2px] ">
-              <Github className="h-5 w-5 text-[#632EE3] " />
+              <Github className=" h-5 w-5 text-[#632EE3] " />
             </div>
             Contribute
           </Link>
