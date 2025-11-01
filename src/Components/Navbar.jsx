@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <div className="navbar bg-base-100 shadow-sm px-5">
         <div className="navbar-start">
           <div className="dropdown">
