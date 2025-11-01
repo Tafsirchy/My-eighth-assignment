@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://i.ibb.co.com/mvqqHzT/productivity-app.jpg",
+    "image": "https://i.ibb.co.com/9DK3CLX/Taskflow-logo.png",
     "title": "TaskFlow",
     "companyName": "NextGen Labs",
     "id": 1,
@@ -8,7 +8,7 @@
     "size": 45,
     "reviews": 3124,
     "ratingAvg": 4.7,
-    "downloads": 125000,
+    "downloads": "125k",
     "ratings": [
       { "name": "1 star", "count": 80 },
       { "name": "2 star", "count": 130 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/yPNvj0C/fitness-app.jpg",
+    "image": "https://i.ibb.co.com/RpWxb8vK/Fit-track.jpg",
     "title": "FitTrack",
     "companyName": "HealthSync",
     "id": 2,
@@ -26,7 +26,7 @@
     "size": 82,
     "reviews": 2540,
     "ratingAvg": 4.5,
-    "downloads": 97000,
+    "downloads": "97k",
     "ratings": [
       { "name": "1 star", "count": 95 },
       { "name": "2 star", "count": 156 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/pjN6bMW/music-player.jpg",
+    "image": "https://i.ibb.co.com/TxsHcmg0/Tune-Stream.jpg",
     "title": "TuneStream",
     "companyName": "MelodyHub",
     "id": 3,
@@ -44,7 +44,7 @@
     "size": 76,
     "reviews": 6010,
     "ratingAvg": 4.8,
-    "downloads": 320000,
+    "downloads": "3.2M",
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 220 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Y3YrLbt/travel-app.jpg",
+    "image": "https://i.ibb.co.com/qLypb8hk/Trip-Ease.jpg",
     "title": "TripEase",
     "companyName": "VoyageWorks",
     "id": 4,
@@ -62,7 +62,7 @@
     "size": 60,
     "reviews": 1442,
     "ratingAvg": 4.6,
-    "downloads": 86000,
+    "downloads": "86k",
     "ratings": [
       { "name": "1 star", "count": 42 },
       { "name": "2 star", "count": 76 },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/QvF4KZc/finance-app.jpg",
+    "image": "https://i.ibb.co.com/fG0YfRDP/Money-Mate.png",
     "title": "MoneyMate",
     "companyName": "FinSage",
     "id": 5,
@@ -80,7 +80,7 @@
     "size": 42,
     "reviews": 3240,
     "ratingAvg": 4.4,
-    "downloads": 143000,
+    "downloads": "143k",
     "ratings": [
       { "name": "1 star", "count": 190 },
       { "name": "2 star", "count": 210 },
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/CP7G0GL/photo-editor.jpg",
+    "image": "https://i.ibb.co.com/4gmkZ3hY/Snap-Edit.png",
     "title": "SnapEdit",
     "companyName": "PixelForge",
     "id": 6,
@@ -98,7 +98,7 @@
     "size": 70,
     "reviews": 5100,
     "ratingAvg": 4.8,
-    "downloads": 390000,
+    "downloads": "3.9M",
     "ratings": [
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 140 },
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/ypRnSp9/shopping-app.jpg",
+    "image": "https://i.ibb.co.com/tMzq5Y8H/Shop-Link.jpg",
     "title": "ShopLink",
     "companyName": "MarketGrid",
     "id": 7,
@@ -116,7 +116,7 @@
     "size": 88,
     "reviews": 7800,
     "ratingAvg": 4.6,
-    "downloads": 540000,
+    "downloads": "540k",
     "ratings": [
       { "name": "1 star", "count": 190 },
       { "name": "2 star", "count": 290 },
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/tZXDh3x/education-app.jpg",
+    "image": "https://i.ibb.co.com/Gvr6ShWr/Edu-verse.jpg",
     "title": "EduVerse",
     "companyName": "LearnSphere",
     "id": 8,
@@ -134,7 +134,7 @@
     "size": 120,
     "reviews": 2100,
     "ratingAvg": 4.5,
-    "downloads": 184000,
+    "downloads": "184k",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 160 },
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/LrR2nzk/news-app.jpg",
+    "image": "https://i.ibb.co.com/Q7hh30QJ/Daily-Pulse.jpg",
     "title": "DailyPulse",
     "companyName": "InfoStream",
     "id": 9,
@@ -152,7 +152,7 @@
     "size": 38,
     "reviews": 4200,
     "ratingAvg": 4.2,
-    "downloads": 175000,
+    "downloads": "175k",
     "ratings": [
       { "name": "1 star", "count": 260 },
       { "name": "2 star", "count": 380 },
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/L5TbbXz/weather-app.jpg",
+    "image": "https://i.ibb.co.com/08sRTGn/Sky-cast.png",
     "title": "SkyCast",
     "companyName": "WeatherPro",
     "id": 10,
@@ -170,7 +170,7 @@
     "size": 30,
     "reviews": 2980,
     "ratingAvg": 4.3,
-    "downloads": 154000,
+    "downloads": "154k",
     "ratings": [
       { "name": "1 star", "count": 110 },
       { "name": "2 star", "count": 160 },
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/WK8FtzC/social-app.jpg",
+    "image": "https://i.ibb.co.com/qLN0tmXQ/Chatterly.jpg",
     "title": "Chatterly",
     "companyName": "Connectify",
     "id": 11,
@@ -188,7 +188,7 @@
     "size": 110,
     "reviews": 8800,
     "ratingAvg": 4.5,
-    "downloads": 840000,
+    "downloads": "840k",
     "ratings": [
       { "name": "1 star", "count": 390 },
       { "name": "2 star", "count": 470 },
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/23C8zZ5/language-app.jpg",
+    "image": "https://i.ibb.co.com/vyqVRjt/Lingua-Pro.png",
     "title": "LinguaPro",
     "companyName": "PolyLearn",
     "id": 12,
@@ -206,7 +206,7 @@
     "size": 64,
     "reviews": 4500,
     "ratingAvg": 4.8,
-    "downloads": 260000,
+    "downloads": "260k",
     "ratings": [
       { "name": "1 star", "count": 70 },
       { "name": "2 star", "count": 130 },
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/2K1DyWF/security-app.jpg",
+    "image": "https://i.ibb.co.com/N2KFVLPq/Safe-Net.jpg",
     "title": "SafeNet",
     "companyName": "CyberVault",
     "id": 13,
@@ -224,7 +224,7 @@
     "size": 90,
     "reviews": 3670,
     "ratingAvg": 4.6,
-    "downloads": 195000,
+    "downloads": "195k",
     "ratings": [
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 140 },
@@ -234,15 +234,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/syR3YQH/maps-app.jpg",
-    "title": "Maply",
+    "image": "https://i.ibb.co.com/vxQFXXfp/Maply.jpg",
+    "title": "Maple",
     "companyName": "GeoVision",
     "id": 14,
     "description": "Offline maps, navigation, and location sharing with live traffic updates.",
     "size": 150,
     "reviews": 4980,
     "ratingAvg": 4.4,
-    "downloads": 310000,
+    "downloads": "310k",
     "ratings": [
       { "name": "1 star", "count": 210 },
       { "name": "2 star", "count": 310 },
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qY3Djns/food-delivery-app.jpg",
+    "image": "https://i.ibb.co.com/yntYdBfy/Quick-Bite.png",
     "title": "QuickBite",
     "companyName": "Foodly",
     "id": 15,
@@ -260,7 +260,7 @@
     "size": 65,
     "reviews": 9100,
     "ratingAvg": 4.3,
-    "downloads": 620000,
+    "downloads": "620k",
     "ratings": [
       { "name": "1 star", "count": 540 },
       { "name": "2 star", "count": 710 },
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qC0hpf6/meditation-app.jpg",
+    "image": "https://i.ibb.co.com/q33r4r8c/Calm-Space.png",
     "title": "CalmSpace",
     "companyName": "MindEase",
     "id": 16,
@@ -278,7 +278,7 @@
     "size": 58,
     "reviews": 2700,
     "ratingAvg": 4.9,
-    "downloads": 180000,
+    "downloads": "180k",
     "ratings": [
       { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 40 },
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/f9P3wtx/note-app.jpg",
+    "image": "https://i.ibb.co.com/C50gR9Cd/Note-Sync.png",
     "title": "NoteSync",
     "companyName": "CloudTools",
     "id": 17,
@@ -296,7 +296,7 @@
     "size": 34,
     "reviews": 1980,
     "ratingAvg": 4.7,
-    "downloads": 150000,
+    "downloads": "150k",
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 80 },
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/4M3Jhs3/gaming-app.jpg",
+    "image": "https://i.ibb.co.com/xSq52pRT/Pixel-Quest.jpg",
     "title": "PixelQuest",
     "companyName": "GameForge",
     "id": 18,
@@ -314,7 +314,7 @@
     "size": 180,
     "reviews": 11200,
     "ratingAvg": 4.6,
-    "downloads": 980000,
+    "downloads": "980k",
     "ratings": [
       { "name": "1 star", "count": 650 },
       { "name": "2 star", "count": 810 },
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/t1B8K6G/music-maker-app.jpg",
+    "image": "https://i.ibb.co.com/3mCMZZ8K/beatcraft-logo-a.png",
     "title": "BeatCraft",
     "companyName": "SoundForge",
     "id": 19,
@@ -332,7 +332,7 @@
     "size": 95,
     "reviews": 4230,
     "ratingAvg": 4.8,
-    "downloads": 290000,
+    "downloads": "2.9M",
     "ratings": [
       { "name": "1 star", "count": 70 },
       { "name": "2 star", "count": 100 },
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/9NVy1CF/travel-map-app.jpg",
+    "image": "https://i.ibb.co.com/DjRc5DM/City-Scoutes.png",
     "title": "CityScout",
     "companyName": "UrbanTech",
     "id": 20,
@@ -350,7 +350,7 @@
     "size": 85,
     "reviews": 3100,
     "ratingAvg": 4.5,
-    "downloads": 230000,
+    "downloads": "230k",
     "ratings": [
       { "name": "1 star", "count": 130 },
       { "name": "2 star", "count": 180 },
