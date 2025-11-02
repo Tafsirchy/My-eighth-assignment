@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLoaderData } from "react-router";
+import { Link } from "react-router";
 import AppCard from "../Components/AppCard";
 import useApps from "../Hooks/useApps";
 import Banner from "../Components/Banner";
@@ -18,7 +18,7 @@ const Home = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 container  mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 container  mx-auto">
         {featuredApps.map((app) => (
           <AppCard key={app.id} app={app}></AppCard>
         ))}

@@ -3,10 +3,11 @@ import React from "react";
 import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
+  const NavActiveStyle = ({isActive}) => isActive ? "bg-cyan-800 text-white" : "";
   return (
     <div className="container mx-auto">
-      <div className="navbar bg-base-100 shadow-sm px-5">
-        <div className="navbar-start">
+      <div className="navbar bg-base-100 shadow-sm px-5 ">
+        <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -30,19 +31,28 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink className={NavActiveStyle} to="/">
+                  Home
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/apps">Apps</NavLink>
+                <NavLink className={NavActiveStyle} to="/apps">
+                  Apps
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/installation">Installation</NavLink>
+                <NavLink className={NavActiveStyle} to="/installation">
+                  Installation
+                </NavLink>
               </li>
             </ul>
           </div>
           <div className="hidden lg:flex justify-center items-center">
             <img src="/assets/logo.png" alt="" className="h-10 w-10 " />
-            <Link to="/" className=" font-bold ml-1.5 btn-ghost text-2xl font-bold">
+            <Link
+              to="/"
+              className=" font-bold ml-1.5 btn-ghost text-2xl font-bold"
+            >
               Apps Vault
             </Link>
           </div>
@@ -50,13 +60,19 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink className={NavActiveStyle} to="/">
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/apps">Apps</NavLink>
+              <NavLink className={NavActiveStyle} to="/apps">
+                Apps
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/installation">Installation</NavLink>
+              <NavLink className={NavActiveStyle} to="/installation">
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
