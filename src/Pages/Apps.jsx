@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppCard from "../Components/AppCard";
-import { useNavigate } from "react-router";
 
 const Apps = () => {
   const { apps } = useApps();

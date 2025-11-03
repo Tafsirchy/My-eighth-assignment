@@ -13,30 +13,40 @@ const Installation = () => {
 
   const parseDownloads = (downloads) => {
     const num = parseFloat(downloads);
-    if(downloads.toLowerCase().includes("k")) return num * 1000;
-    else if(downloads.toLowerCase().includes("m")) return num * 1000000;
+    if (downloads.toLowerCase().includes("k")) return num * 1000;
+    else if (downloads.toLowerCase().includes("m")) return num * 1000000;
+    return num;
   };
 
-  const sortedApps = () => {
+  const sortedApps = (() => {
     if (sortApps === "downloads-asc") {
       return [...installed].sort(
         (a, b) => parseDownloads(a.downloads) - parseDownloads(b.downloads)
       );
-    } 
-    else if (sortApps === "downloads-desc") {
+    } else if (sortApps === "downloads-desc") {
       return [...installed].sort(
         (a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads)
       );
     } else {
       return installed;
     }
-  }
+  })();
+
+  const handleRemove = (id) => {
+    const existingApps = JSON.parse(localStorage.getItem("installed"));
+
+    let updatedList = existingApps.filter((inst) => inst.id !== id);
+
+    setInstalled(updatedList);
+
+    localStorage.setItem("installed", JSON.stringify(updatedList));
+  };
 
   return (
     <div>
       <div className="flex justify-between py-5 items-center">
         <h1 className="text-3xl font-semibold">
-          {installed.length} Apps Found
+          {sortedApps.length} Apps Found
         </h1>
         <label className="form-control w-full max-w-xs">
           <select
@@ -51,7 +61,7 @@ const Installation = () => {
         </label>
       </div>
       <div className="space-y-6 ">
-        {sortedApps().map((inst) => (
+        {sortedApps.map((inst) => (
           <div className="flex justify-between items-center bg-white">
             <div className="flex flex-row justify-baseline items-center space-x-4 p-2">
               <div>
@@ -86,7 +96,7 @@ const Installation = () => {
             </div>
             <div className="p-2">
               <button
-                // onClick={handleInstalled}
+                onClick={() => handleRemove(inst.id)}
                 className="btn bg-[#00d390] text-xl font-semibold text-white hover:bg-cyan-500 transition-all duration-300"
               >
                 Uninstall
