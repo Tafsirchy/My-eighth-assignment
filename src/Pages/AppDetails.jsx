@@ -1,11 +1,11 @@
 import React from "react";
 import useApps from "../Hooks/useApps";
-import { useNavigate, useParams } from "react-router";
+import { useParams } from "react-router";
 
 const AppDetails = () => {
   const { apps, loading } = useApps();
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const { id } = useParams();
   const app = apps.find((ap) => ap.id === parseInt(id));
@@ -25,12 +25,27 @@ const AppDetails = () => {
     size,
   } = app;
 
+  const handleInstalled = () => {
+    const existingApps = JSON.parse(localStorage.getItem("installed"));
+
+    let updatedApps = [];
+    if (existingApps) {
+      const isDuplicate = existingApps.some((ap) => ap.id === app.id);
+      if (isDuplicate) return alert("App already installed");
+      updatedApps = [...existingApps, app];
+    } else {
+      updatedApps.push(app);
+    }
+
+    localStorage.setItem("installed", JSON.stringify(updatedApps));
+  };
+
   return (
     <div className="container mx-auto py-10 text-center lg:text-start">
       <div className="flex flex-col text-center items-center justify-center lg:text-start lg:flex-row  lg:justify-start gap-10 ">
         <div className="w-[30%]">
           <img
-            className="mx-auto rounded-lg w-88 h-88 shadow-xl"
+            className="mx-auto rounded-lg lg:w-88 lg:h-88 shadow-xl"
             src={image}
             alt=""
           />
@@ -45,8 +60,8 @@ const AppDetails = () => {
               </span>
             </p>
           </div>
-          <div className="flex gap-12 pt-5  pb-10">
-            <div className="flex flex-col items-center lg:items-start justify-center">
+          <div className="flex flex-col lg:flex-row gap-12 pt-5 pb-10">
+            <div className=" flex flex-col items-center lg:items-start justify-center">
               <img
                 className="w-10 h-10"
                 src="/assets/icon-downloads.png"
@@ -77,7 +92,10 @@ const AppDetails = () => {
             </div>
           </div>
           <div>
-            <button className="btn bg-[#00d390] text-xl font-semibold text-white hover:bg-cyan-500 transition-all duration-300">
+            <button
+              onClick={handleInstalled}
+              className="btn bg-[#00d390] text-xl font-semibold text-white hover:bg-cyan-500 transition-all duration-300"
+            >
               Install Now ({size} MB)
             </button>
           </div>
