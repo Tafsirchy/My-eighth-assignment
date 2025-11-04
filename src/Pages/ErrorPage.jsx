@@ -4,8 +4,8 @@ import { Link } from 'react-router';
 const ErrorPage = () => {
     return (
       <div>
-        <div className="flex flex-col justify-center items-center p-10 space-y-6">
-          <img className="w-90 h-90" src="/assets/error-404.png" alt="" />
+        <div className="flex flex-col justify-center items-center text-center p-10 space-y-3">
+          <img className="w-88 h-88" src="/assets/error-404.png" alt="" />
           <h1 className="text-5xl font-semibold">Oops, page not found!</h1>
           <p className="text-xl text-gray-500">
             The page you are looking for is not available.

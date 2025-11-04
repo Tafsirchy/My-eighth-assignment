@@ -4,7 +4,7 @@ import AppCard from "../Components/AppCard";
 import useApps from "../Hooks/useApps";
 import Banner from "../Components/Banner";
 const Home = () => {
-  const { apps, loading, errors } = useApps();
+  const { apps } = useApps();
 
   const featuredApps = apps.slice(0, 8);
 

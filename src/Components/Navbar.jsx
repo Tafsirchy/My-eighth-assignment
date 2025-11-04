@@ -3,7 +3,8 @@ import React from "react";
 import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
-  const NavActiveStyle = ({isActive}) => isActive ? "bg-cyan-800 text-white" : "";
+  const NavActiveStyle = ({ isActive }) =>
+    isActive ? "bg-cyan-800 text-white" : "";
   return (
     <div className="container mx-auto">
       <div className="navbar bg-base-100 shadow-sm px-5 ">
@@ -48,11 +49,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="hidden lg:flex justify-center items-center">
-            <img src="/assets/logo.png" alt="" className="h-10 w-10 " />
             <Link
               to="/"
-              className=" font-bold ml-1.5 btn-ghost text-2xl font-bold"
+              className="flex justify-center items-center font-bold gap-1 btn-ghost text-2xl font-bold"
             >
+            <img src="/assets/logo.png" alt="" className="h-10 w-10 " />
               Apps Vault
             </Link>
           </div>
@@ -77,7 +78,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white hover:from-[#7446E8] hover:to-[#AE7AF6] border-none flex gap-2 rounded-lg items-center duration-200 hover:scale-105">
+          <Link
+            to={"https://github.com/Tafsirchy"}
+            className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white hover:from-[#7446E8] hover:to-[#AE7AF6] border-none flex gap-2 rounded-lg items-center duration-200 hover:scale-105"
+          >
             <div className="bg-white rounded-full p-[2px] ">
               <Github className=" h-5 w-5 text-[#632EE3] " />
             </div>

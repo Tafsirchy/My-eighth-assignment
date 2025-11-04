@@ -9,7 +9,7 @@ const AppCard = ({ app }) => {
   return (
     <div
       onClick={() => navigate(`/apps/${id}`)}
-      className="card bg-base-100 shadow-2xl cursor-pointer"
+      className="card bg-base-100 shadow-2xl cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300"
     >
       <figure className="h-60 p-4 ">
         <img

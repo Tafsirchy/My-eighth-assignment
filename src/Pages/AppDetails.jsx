@@ -12,6 +12,8 @@ import {
   YAxis,
   BarChart,
 } from "recharts";
+import { toast } from "react-toastify";
+import AppsNotfound from "./AppsNotfound";
 
 const AppDetails = () => {
   const { apps, loading } = useApps();
@@ -27,7 +29,7 @@ const AppDetails = () => {
   }, [app]);
 
   if (loading) return <h1>Loading...</h1>;
-  if (!app) return <h1 className="text-center text-red-500">App not found</h1>;
+  if (!app) return <AppsNotfound></AppsNotfound>
 
   const {
     title,
@@ -45,11 +47,12 @@ const AppDetails = () => {
     const existingApps = JSON.parse(localStorage.getItem("installed")) || [];
     const isDuplicate = existingApps.some((ap) => ap.id === app.id);
 
-    if (isDuplicate) return alert("App already installed");
+    if (isDuplicate) return toast.error("App already installed");
 
     const updatedApps = [...existingApps, app];
     localStorage.setItem("installed", JSON.stringify(updatedApps));
     setIsInstalled(true);
+    toast.success("App installed successfully");
   };
 
   return (

@@ -1,14 +1,31 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppCard from "../Components/AppCard";
+import LoadingSpinner from "../Components/LoadingSpinner";
+import AppsNotfound from "./AppsNotfound";
 
 const Apps = () => {
   const { apps } = useApps();
-  // const navigate = useNavigate();
-
+  const [searching, setSearching] = useState(false);
   const [search, setSearch] = useState("");
+  const searchInput = useRef(null);
 
   const term = search.trim().toLocaleLowerCase();
+
+  useEffect(() => {
+    if (!term) {
+      setSearching(false);
+      return;
+    }
+
+    setSearching(true);
+    const timer = setTimeout(() => {
+      setSearching(false);
+      searchInput.current?.focus();
+    }, 400);
+
+    return () => clearTimeout(timer);
+  }, [term]);
 
   const searchedApps = term
     ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
@@ -51,6 +68,7 @@ const Apps = () => {
                 </g>
               </svg>
               <input
+                ref={searchInput}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 type="search"
@@ -58,6 +76,11 @@ const Apps = () => {
                 placeholder="Search Apps"
               />
             </label>
+            {searching && (
+              <div className="absolute right-4 top-4">
+                <LoadingSpinner size="sm" />
+              </div>
+            )}
           </div>
           <div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -68,23 +91,7 @@ const Apps = () => {
           </div>
         </div>
       ) : (
-        <div>
-          <div className="flex flex-col justify-center items-center p-10 space-y-6">
-            <img className="w-90 h-90" src="/assets/App-Error.png" alt="" />
-            <h1 className="text-5xl font-semibold">OPPS!! APP NOT FOUND</h1>
-            <p className="text-xl text-gray-500">
-              The App you are requesting is not found on our system. please try
-              another apps
-            </p>
-            <button
-              onClick={() => (window.location.href = "/apps")}
-              to="/apps"
-              className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-bold hover:from-[#7446E8] hover:to-[#AE7AF6] border-none flex gap-2 rounded-lg items-center duration-200 hover:scale-105"
-            >
-              Go Back
-            </button>
-          </div>
-        </div>
+        <AppsNotfound></AppsNotfound>
       )}
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const [installed, setInstalled] = useState([]);
@@ -38,13 +39,16 @@ const Installation = () => {
     let updatedList = existingApps.filter((inst) => inst.id !== id);
 
     setInstalled(updatedList);
+    toast.error("Uninstalled Successfully")
 
     localStorage.setItem("installed", JSON.stringify(updatedList));
+
+
   };
 
   return (
     <div>
-      <div className="flex justify-between py-5 items-center">
+      <div className="container mx-auto flex justify-between py-5 items-center">
         <h1 className="text-3xl font-semibold">
           {sortedApps.length} Apps Found
         </h1>
