@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import iconDownloads from "../assets/iconDownloads.png";
+import iconRatings from "../assets/iconRatings.png";
 
 const Installation = () => {
   const [installed, setInstalled] = useState([]);
@@ -79,19 +81,11 @@ const Installation = () => {
                 <h1>{inst.title}</h1>
                 <div className="flex gap-5">
                   <div className="text-[#00d390] flex items-center justify-start gap-2">
-                    <img
-                      className="w-4 h-4"
-                      src={"/assets/icon-downloads.png"}
-                      alt=""
-                    />
+                    <img className="w-4 h-4" src={iconDownloads} alt="" />
                     <p className="font-semibold">{inst.downloads}</p>
                   </div>
                   <div className=" text-[#ff8811] flex items-center justify-start gap-2">
-                    <img
-                      className="w-4 h-4"
-                      src="/assets/icon-ratings.png"
-                      alt=""
-                    />
+                    <img className="w-4 h-4" src={iconRatings} alt="" />
                     <p className="font-semibold">{inst.ratingAvg}</p>
                   </div>
                   <div className="text-4 text-gray-500">{inst.size} MB</div>

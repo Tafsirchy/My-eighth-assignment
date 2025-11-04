@@ -1,5 +1,6 @@
 import { Facebook, Github, Instagram, Twitter } from "lucide-react";
 import React from "react";
+import logo from "../Assets/logo.png";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-y-10 lg:gap-y-0 text-base-content text-center lg:text-left py-10 ml-4">
           <aside className="flex flex-col items-center lg:items-start ">
-            <img className="w-20 h-20 mb-3" src="/assets/logo.png" alt="" />
+            <img className="w-20 h-20 mb-3" src={logo} alt="" />
             <p>
               Apps Vault
               <br />

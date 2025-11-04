@@ -1,12 +1,13 @@
 import React from 'react';
+import AppError from '../assets/AppError.png';
 
 const AppsNotfound = () => {
     return (
       <div>
         <div>
-          <div className="flex flex-col justify-center items-center p-10 space-y-6">
-            <img className="w-90 h-90" src="/assets/App-Error.png" alt="" />
-            <h1 className="text-5xl font-semibold">OPPS!! APP NOT FOUND</h1>
+          <div className="flex flex-col justify-center items-center p-2 space-y-1 mt">
+            <img className="w-85 h-78" src={AppError} alt="" />
+            <h1 className="text-[40px] font-semibold">OPPS!! APP NOT FOUND</h1>
             <p className="text-xl text-gray-500">
               The App you are requesting is not found on our system. please try
               another apps

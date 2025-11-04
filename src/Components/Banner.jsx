@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
+import playstore from "../assets/playstore.png";
+import appstore from "../assets/appstore.png";
 
 const Banner = () => {
   return (
@@ -19,11 +21,11 @@ const Banner = () => {
           </p>
           <div className="text-2xl font-semibold flex justify-center items-center gap-5 mt-10">
             <div className="btn flex items-center gap-2">
-              <img className="w-7 h-7" src="/assets/playstore.png" alt="" />
+              <img className="w-7 h-7" src={playstore} alt="" />
               <Link to={"https://play.google.com/"}>Google Play</Link>
             </div>
             <div className="btn flex items-center gap-2">
-              <img className="w-7 h-7" src="/assets/Appstore.png" alt="" />
+              <img className="w-7 h-7" src={appstore} alt="" />
               <Link to={"https://www.apple.com/"}>Apps Store</Link>
             </div>
           </div>

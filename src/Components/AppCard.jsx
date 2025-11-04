@@ -1,7 +1,7 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
 import { useNavigate } from "react-router";
-
+import iconRatings from "../assets/iconRatings.png"
 const AppCard = ({ app }) => {
   const { title, image, downloads, ratingAvg, id } = app;
   // console.log(app);
@@ -26,7 +26,7 @@ const AppCard = ({ app }) => {
             {downloads}
           </div>
           <div className="bg-[#fff0e1] p-2 lg:py-2 lg:px-3 text-[#ff8811] rounded-lg flex items-center gap-1 md:gap-2 lg:gap-2 font-bold text-xl">
-            <img className="w-5 h-5" src="/assets/icon-ratings.png" alt="" />
+            <img className="w-5 h-5" src={iconRatings} alt="" />
             {ratingAvg}
           </div>
         </div>

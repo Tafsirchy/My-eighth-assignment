@@ -1,6 +1,7 @@
 import { Github } from "lucide-react";
 import React from "react";
 import { Link, NavLink } from "react-router";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const NavActiveStyle = ({ isActive }) =>
@@ -53,7 +54,7 @@ const Navbar = () => {
               to="/"
               className="flex justify-center items-center font-bold gap-1 btn-ghost text-2xl font-bold"
             >
-            <img src="/assets/logo.png" alt="" className="h-10 w-10 " />
+              <img src={logo} alt="" className="h-10 w-10 " />
               Apps Vault
             </Link>
           </div>

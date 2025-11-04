@@ -14,6 +14,9 @@ import {
 } from "recharts";
 import { toast } from "react-toastify";
 import AppsNotfound from "./AppsNotfound";
+import iconDownloads from "../assets/iconDownloads.png";
+import iconReview from "../assets/iconReview.png";
+import iconRating from "../assets/iconRatings.png";
 
 const AppDetails = () => {
   const { apps, loading } = useApps();
@@ -78,29 +81,21 @@ const AppDetails = () => {
 
           <div className="flex flex-col lg:flex-row gap-12 pt-5 pb-10">
             <div className="flex flex-col items-center lg:items-start">
-              <img
-                className="w-10 h-10"
-                src="/assets/icon-downloads.png"
-                alt=""
-              />
+              <img className="w-10 h-10" src={iconDownloads} alt="" />
               <p className="text-[#001931] pb-2 pt-3">Downloads</p>
               <h1 className="text-[#001931] text-4xl font-extrabold">
                 {downloads}
               </h1>
             </div>
             <div className="flex flex-col items-center lg:items-start">
-              <img
-                className="w-10 h-10"
-                src="/assets/icon-ratings.png"
-                alt=""
-              />
+              <img className="w-10 h-10" src={iconRating} alt="" />
               <p className="text-[#001931] pb-2 pt-3">Average Ratings</p>
               <h1 className="text-[#001931] text-4xl font-extrabold">
                 {ratingAvg}
               </h1>
             </div>
             <div className="flex flex-col items-center lg:items-start">
-              <img className="w-10 h-10" src="/assets/icon-review.png" alt="" />
+              <img className="w-10 h-10" src={iconReview} alt="" />
               <p className="text-[#001931] pb-2 pt-3">Total Reviews</p>
               <h1 className="text-[#001931] text-4xl font-extrabold">
                 {reviews}
