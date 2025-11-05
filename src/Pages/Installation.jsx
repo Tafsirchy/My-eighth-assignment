@@ -78,7 +78,7 @@ const Installation = () => {
               <div className="space-y-2 lg:space-y-4">
                 <h1>{inst.title}</h1>
                 <div className="flex justify-center items-center gap-2 lg:gap-5">
-                  <div className="text-[rgb(0,211,144)] flex items-center justify-start gap-2">
+                  <div className="text-[rgb(0,211,144)] flex items-center justify-start gap-1 lg:gap-2">
                     <img
                       className="w-3 h-3 lg:w-4 lg:h-4"
                       src={iconDownloads}
@@ -88,7 +88,7 @@ const Installation = () => {
                       {inst.downloads}
                     </p>
                   </div>
-                  <div className=" text-[#ff8811] flex items-center justify-start gap-2">
+                  <div className=" text-[#ff8811] flex items-center justify-start gap-1 lg:gap-2">
                     <img
                       className="w-3 h-3 lg:w-4 lg:h-4"
                       src={iconRatings}
