@@ -41,11 +41,9 @@ const Installation = () => {
     let updatedList = existingApps.filter((inst) => inst.id !== id);
 
     setInstalled(updatedList);
-    toast.error("Uninstalled Successfully")
+    toast.error("Uninstalled Successfully");
 
     localStorage.setItem("installed", JSON.stringify(updatedList));
-
-
   };
 
   return (
@@ -66,36 +64,50 @@ const Installation = () => {
           </select>
         </label>
       </div>
-      <div className="space-y-6 ">
+      <div className="space-y-3 lg:space-y-6 ">
         {sortedApps.map((inst) => (
           <div className="flex justify-between items-center bg-white">
-            <div className="flex flex-row justify-baseline items-center space-x-4 p-2">
+            <div className="flex flex-row justify-baseline items-center space-x-2 lg:space-x-4 p-2">
               <div>
                 <img
-                  className="w-28 h-28 rounded-lg shadow"
+                  className="w-20 h-20 lg:w-28 lg:h-28 rounded-lg shadow"
                   src={inst.image}
                   alt={inst.title}
                 />
               </div>
-              <div className="space-y-4">
+              <div className="space-y-2 lg:space-y-4">
                 <h1>{inst.title}</h1>
-                <div className="flex gap-5">
-                  <div className="text-[#00d390] flex items-center justify-start gap-2">
-                    <img className="w-4 h-4" src={iconDownloads} alt="" />
-                    <p className="font-semibold">{inst.downloads}</p>
+                <div className="flex justify-center items-center gap-2 lg:gap-5">
+                  <div className="text-[rgb(0,211,144)] flex items-center justify-start gap-2">
+                    <img
+                      className="w-3 h-3 lg:w-4 lg:h-4"
+                      src={iconDownloads}
+                      alt=""
+                    />
+                    <p className="text-[12px] lg:text-[16px] font-semibold">
+                      {inst.downloads}
+                    </p>
                   </div>
                   <div className=" text-[#ff8811] flex items-center justify-start gap-2">
-                    <img className="w-4 h-4" src={iconRatings} alt="" />
-                    <p className="font-semibold">{inst.ratingAvg}</p>
+                    <img
+                      className="w-3 h-3 lg:w-4 lg:h-4"
+                      src={iconRatings}
+                      alt=""
+                    />
+                    <p className="text-[12px] lg:text-[16px] font-semibold">
+                      {inst.ratingAvg}
+                    </p>
                   </div>
-                  <div className="text-4 text-gray-500">{inst.size} MB</div>
+                  <div className="text-[12px] lg:text-[16px] text-gray-500">
+                    {inst.size} MB
+                  </div>
                 </div>
               </div>
             </div>
             <div className="p-2">
               <button
                 onClick={() => handleRemove(inst.id)}
-                className="btn bg-[#00d390] text-xl font-semibold text-white hover:bg-cyan-500 transition-all duration-300"
+                className="btn bg-[#00d390] lg:text-xl font-semibold text-white hover:bg-cyan-500 transition-all duration-300"
               >
                 Uninstall
               </button>
