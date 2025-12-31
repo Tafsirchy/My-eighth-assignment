@@ -7,7 +7,7 @@ A modern web application built with **React**, designed to browse, search, insta
 ## 🚀 Live Demo & Resources
 
 🔗 **Live Site:** [(https://apps-vault.netlify.app/)](https://apps-vault.netlify.app/)
-💾 **GitHub Repo:** *Add your repository link here*
+💾 **GitHub Repo:** [(https://github.com/Tafsirchy/My-eighth-assignment.git)](https://github.com/Tafsirchy/My-eighth-assignment.git)
 
 ---
 
@@ -27,33 +27,57 @@ This makes the project a great example of a complete modern React app with routi
 
 ## 🛠️ Tech Stack & Dependencies
 
-### **Core Technologies**
+🛠️ Tech Stack
 
-| Technology            | Purpose                             |
-| --------------------- | ----------------------------------- |
-| React                 | Core frontend framework             |
-| React Router          | Page routing & dynamic URLs         |
-| Axios                 | Data fetching                       |
-| Recharts              | Data visualization charts           |
-| TailwindCSS + DaisyUI | UI components and styling           |
-| Lucide Icons          | Lightweight icons for UI            |
-| React Toastify        | Toast notifications                 |
-| LocalStorage API      | Storing installed apps persistently |
+React.js
 
----
+React Router
 
-## 📦 Key Dependencies
+Axios
 
-```
-"axios"
-"react-router-dom"
-"recharts"
-"react-toastify"
-"lucide-react"
-"tailwindcss"
-"daisyui"
-```
+Recharts
 
+React Toastify
+
+Tailwind CSS
+
+DaisyUI
+
+Lucide Icons
+
+📦 Dependencies Used
+
+axios
+
+react-router-dom
+
+recharts
+
+react-toastify
+
+lucide-react
+
+tailwindcss
+
+daisyui
+
+✨ Core Features
+
+Browse all available apps
+
+App detail pages with charts & analytics
+
+Install / Uninstall apps (LocalStorage persistence)
+
+Sort installed apps by download count
+
+Real-time search filter functionality
+
+Error page & App not found page
+
+Responsive design for mobile & desktop
+
+Smooth loading experience and UI feedback
 ---
 
 ## ✨ Features
